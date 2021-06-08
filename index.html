@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet"> 
+    <title>Pogtifólio | Home</title>
+
+    <!-- Css Essensial -->
+    <link rel="stylesheet" href="assets/css/html.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <!-- Cabeçalho -->
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-titulo.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-nav-links.css">
+
+    <!-- Home inicial do site -->
+    <link rel="stylesheet" href="assets/css/index/home/home.css">
+    <link rel="stylesheet" href="assets/css/index/home/home-imagem.css">
+    <link rel="stylesheet" href="assets/css/index/home/home-texto.css">
+
+    <!-- Estilo do sobre da home -->
+    <link rel="stylesheet" href="assets/css/index/sobre/sobre.css">
+    <link rel="stylesheet" href="assets/css/index/sobre/sobre-texto.css">
+
+    <!-- Estilo do resumo dos projetos -->
+    <link rel="stylesheet" href="assets/css/index/projetos/projetos.css">
+    <link rel="stylesheet" href="assets/css/index/projetos/projetos-bg.css">
+    <link rel="stylesheet" href="assets/css/index/projetos/projetos-imagens.css">
+    <link rel="stylesheet" href="assets/css/index/projetos/projetos-textos.css">
+
+    <!-- Estilo do resumo de Contato -->
+    <link rel="stylesheet" href="assets/css/index/contato/contato.css">
+
+    <!-- Rodapé -->
+    <link rel="stylesheet" href="assets/css/rodape/rodape.css">
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <h1 class="cabecalho__titulo">&#10024; Deky's Pogtifólio</h1>
+            <nav class="cabecalho__nav">
+                <a href="#" class="cabecalho__nav__links">Home</a>
+                <a href="index.html#sobre" class="cabecalho__nav__links">Sobre</a>
+                <a href="index.html#projetos" class="cabecalho__nav__links">Projetos</a>
+                <a href="index.html#contato" class="cabecalho__nav__links">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="home">
+            <div class="container">
+                <img src="assets/img/bg.jpg" alt="bg" class="home__imagem">
+                <div class="home__texto"> 
+                    <h2 class="titulo">Bem-vindo!</h2>
+                    <h3 class="subTitulo">Esse é o meu portifólio de html, css e javascript. Aqui você poderá ver algumas coisas sobre mim, alguns projetos e maneiras de me contatar caso fiquei interessado.</h3>
+                </div>    
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="container">
+                <div class="sobre__texto">
+                    <h2 class="titulo">Sobre mim!</h2>
+                    <h3 class="subTitulo">Atualmente com 15 anos e estudando front-end, Ricardo Hideki mora no Paraná e recém iniciou sua carreira como desenvolvedor full-stack. Apreciador de desenhos japoneses (principalmente de romance triste) e contendo 2 certificados de melhor aluno da sala.</h3>
+                    <a href="#" class="botao">Saiba mais!</a>
+                </div>
+                
+                <img src="assets/img/fotolegal.png" alt="foto do dono do portifólio" class="sobre__foto">
+            </div>
+        </section>
+
+        <section class="projetos" id="projetos">
+            <img src="./assets/img/bg.jpg" alt="Imagem de fundo" class="projetos__bg">
+            <div class="container">
+                    <div class="projetos__imagens">
+                        <img src="./assets/img/Projeto1.png" alt="Preview moonRise" class="projetos__imagem--1">
+                        <img src="./assets/img/Projeto2.png" alt="Preview Alarme" class="projetos__imagem--2">
+                    </div>
+                    
+                    <div class="projetos__texto">
+                        <h2 class="titulo">Projetos</h2>
+                        <h3 class="subTitulo">Eu fiz alguns projetos básicos além dos projetos do curso, desde um site simples para um desafio até um jogo de clicker com várias funções.</h3>
+                        <a class="botao" href="#"> Ver mais! </a>
+                    </div>
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <div class="container">
+                <h2 class="titulo">Ficou interessado?</h2>
+                <h3 class="subTitulo">Contate-me pelas minhas redes socias ou pelo e-mail!</h3>
+                <a href="" class="botao">Pog</a>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="rodape">
+
+        <div class="container">
+
+            <div class="rodape__conteudo">
+                <h1 class="rodape__titulo">&#10024; Deky's Pogtifólio</h1>
+
+                <div class="rodape__nav">
+                    <div class="rodape__sobre rodape__margin">
+                        <h2 class="rodape__sobre--titulo rodape__tituloLista">Sobre</h2>
+                        <ul class="rodape__sobre--lista">
+                            <li class="rodape__lista--item"> <a href="#">Sobrem mim</a> </li>
+                            <li class="rodape__lista--item"><a href="#">Certificados</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="rodape__projetos rodape__margin">
+                        <h2 class="rodape__projetos--titulo rodape__tituloLista">Projetos</h2>
+                        <ul class="rodape__projetos--lista">
+                            <li class="rodape__lista--item"><a href="#">Desafio Alura 2 - moonRise &#127765;</a></li>
+                            <li class="rodape__lista--item"><a href="#">Desafio Alura 3 - Alarme</a></li>
+                            <li class="rodape__lista--item"><a href="#">Battle for Yorktown - Clicker</a></li>
+                            <li class="rodape__lista--item"><a href="#">Pogtifólio</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="rodape__contato rodape__margin">
+                        <h2 class="rodape__contato--titulo rodape__tituloLista">Contato</h2>
+                        <ul class="rodape__contato--lista">
+                            <li class="rodape__lista--item"><a href="#">Twitter</a></li>
+                            <li class="rodape__lista--item"><a href="#">Linkedin</a></li>
+                            <li class="rodape__lista--item"><a href="#">Email</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                    
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

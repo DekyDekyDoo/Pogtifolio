@@ -1,0 +1,5 @@
+.projetos__texto {
+    color: white;
+    margin-left: var(--borda);
+    text-align: center;
+}

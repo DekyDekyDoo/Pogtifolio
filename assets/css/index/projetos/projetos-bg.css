@@ -1,0 +1,5 @@
+.projetos__bg {
+    width: 100%;
+    height: calc(100vh + 82px);
+    opacity: .6;
+}

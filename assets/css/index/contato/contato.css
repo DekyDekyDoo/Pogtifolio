@@ -1,0 +1,22 @@
+.contato{
+    position: relative;
+    height: 100vh;
+    border-bottom: var(--bordaTransicao);
+}
+
+.contato .container {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    text-align: center;
+}
+
+.contato .container .botao {
+    padding: 1rem 50px;
+}
+
+.contato .container .botao:hover {
+    padding: 1.5rem 75px;
+}

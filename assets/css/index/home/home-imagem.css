@@ -1,0 +1,6 @@
+.home__imagem {
+    width: 100%;
+    height: calc(100vh - 82px);
+    position: relative;
+    opacity: .6;
+}

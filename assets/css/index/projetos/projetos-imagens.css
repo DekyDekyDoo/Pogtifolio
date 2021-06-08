@@ -1,0 +1,13 @@
+.projetos__imagens {
+    display: flex;
+    flex-direction: column;
+}
+
+.projetos__imagem--1 {
+    width: 100%;
+}
+
+.projetos__imagem--2 {
+    margin-top: 1.25rem;
+    width: 100%;
+}

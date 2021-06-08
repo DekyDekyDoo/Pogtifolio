@@ -1,0 +1,17 @@
+.projetos{
+    position: relative;
+    border-bottom: var(--bordaTransicao);
+}
+
+.projetos .container {
+    display: flex;
+    align-items: center;
+    
+
+    margin: 0 var(--borda);
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+

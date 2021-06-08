@@ -1,0 +1,52 @@
+:root {
+
+    --ubuntu: 'Ubuntu', sans-serif; /* Light 300, Medium 500 */
+    --ubuntuMono: 'Ubuntu Mono', monospace; /* Regular 400, Bold 700 */
+
+    --titulo: 4rem;
+    --texto: 2.5rem;
+
+    --tamanhoBotao: 1rem;
+    --borda: 5rem;
+    --bordaTransicao: 5px solid white;
+
+}
+
+html {
+    background-image: url("../img/bg2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    scroll-behavior: smooth;
+}
+
+.titulo{
+    color: white;
+    font-size: var(--titulo);
+    font-family: var(--ubuntu);
+}
+
+.subTitulo {
+    margin-top: 1rem;
+    color: white;
+    font-size: var(--texto);
+    font-family: var(--ubuntuMono);
+    margin-bottom: 4rem;
+}
+
+.botao{
+    font-family: var(--ubuntuMono);
+    font-size: var(--texto);
+    border: 2px solid white;
+    border-radius: var(--tamanhoBotao);
+    color: white;
+    padding: var(--tamanhoBotao);
+    text-decoration: none;
+    background: rgba(100, 100, 100, .5);
+}
+
+.botao:hover {
+    padding: 1.5rem;
+    transition: .2s;
+}

@@ -1,0 +1,11 @@
+.cabecalho {
+    background: rgb(30, 30, 30);
+    border-bottom: 5px solid white;
+}
+
+.cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
