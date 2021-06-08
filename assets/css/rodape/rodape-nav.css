@@ -1,0 +1,16 @@
+.rodape__nav{
+    display: flex;
+    width: 26%;
+    justify-content: space-between;
+    margin: 1.5rem .8rem;
+}
+
+
+.rodape__tituloLista {
+    font-family: var(--ubuntu);
+}
+
+.rodape__lista--item a{
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+}
