@@ -1,0 +1,7 @@
+.certificados__titulo {
+    color: white;
+    font-family: var(--ubuntu);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+}

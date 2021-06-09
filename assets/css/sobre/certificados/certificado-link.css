@@ -1,0 +1,14 @@
+.certificado__link{
+    border: 2px solid rgba(150, 150, 150);
+    border-radius: 8px;
+    padding: .5rem 2rem;
+    color: white;
+    font-family: var(--ubuntuMono);
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.certificado__link:hover {
+    background-color: rgba(150, 150, 150, 1);
+    transition: 1s;
+}

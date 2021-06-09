@@ -1,0 +1,7 @@
+.alura__flexbox{
+    margin: calc(80px - 2rem) 0;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

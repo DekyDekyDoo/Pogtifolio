@@ -1,0 +1,23 @@
+.certificados{
+    border-top: var(--bordaTransicao);
+}
+.certificado {
+    background-color: rgb(30, 30, 30, 0.8);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem 0;
+    width: 450px;
+}
+
+.certificado:nth-child(1n) {
+    margin-left: 5rem;
+}
+
+.certificado:nth-child(3n) {
+    margin-right: 5rem;
+}
+

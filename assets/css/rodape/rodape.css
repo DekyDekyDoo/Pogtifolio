@@ -1,4 +1,5 @@
 .rodape{
     background: rgb(30, 30, 30, .8);
+    border-top: var(--bordaTransicao);
 }
 

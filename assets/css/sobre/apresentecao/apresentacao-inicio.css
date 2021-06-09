@@ -1,0 +1,17 @@
+.apresentacao__inicio {
+    flex-shrink: 10;
+    margin-right: 3rem;
+}
+
+.apresentacao__inicio--titulo{
+    font-family: var(--ubuntu);
+    font-size: var(--titulo);
+    text-align: center;
+}
+
+.apresentacao__inicio--texto {
+    margin-top: .5rem;
+    font-family: var(--ubuntuMono);
+    font-size: var(--texto);
+    text-align: justify;
+}

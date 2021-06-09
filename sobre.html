@@ -8,13 +8,37 @@
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
 
+    <!-- Essenciais -->
     <link rel="stylesheet" href="assets/css/html.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
 
+    <!-- Cabeçalho -->
     <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
     <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-titulo.css">
     <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-nav-links.css">
+
+    <!-- Apresentação -->
+    <link rel="stylesheet" href="./assets/css/sobre/apresentecao/apresentacao.css">
+    <link rel="stylesheet" href="./assets/css/sobre/apresentecao/apresentacao-inicio.css">
+    <link rel="stylesheet" href="./assets/css/sobre/apresentecao/apresentacao-itens.css">
+
+    <!-- Certificados -->
+    <link rel="stylesheet" href="./assets/css/sobre/certificados/certificados.css">
+    <link rel="stylesheet" href="./assets/css/sobre/certificados/certificados-inicio.css">
+    <link rel="stylesheet" href="./assets/css/sobre/certificados/certificado-imagem.css">
+    <link rel="stylesheet" href="./assets/css/sobre/certificados/certificado-nome.css">
+    <link rel="stylesheet" href="./assets/css/sobre/certificados/certificado-descricao.css">
+    <link rel="stylesheet" href="./assets/css/sobre/certificados/certificado-link.css">
+    <link rel="stylesheet" href="./assets/css/sobre/certificados/certificados-titulo.css">
+
+        <!-- Alura -->
+        <link rel="stylesheet" href="assets/css/sobre/certificados/alura/alura-flexbox.css">
+
+    <!-- Rodapé -->
+    <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-conteudo.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-nav.css">
 </head>
 <body>
 
@@ -22,13 +46,174 @@
         <div class="container">
             <h1 class="cabecalho__titulo">&#10024; Deky's Pogtifólio</h1>
             <nav class="cabecalho__nav">
-                <a href="#" class="cabecalho__nav__links">Home</a>
-                <a href="index.html#sobre" class="cabecalho__nav__links">Sobre</a>
+                <a href="index.html" class="cabecalho__nav__links">Home</a>
+                <a href="sobre.html" class="cabecalho__nav__links">Sobre</a>
                 <a href="index.html#projetos" class="cabecalho__nav__links">Projetos</a>
                 <a href="index.html#contato" class="cabecalho__nav__links">Contato</a>
             </nav>
         </div>
     </header>
+
+    <main>
+
+        <section class="apresentacao">
+            <div class="apresentacao__bg"> </div>
+            <div class="container">
+                <div class="apresentacao__inicio">
+                    <h2 class="apresentacao__inicio--titulo">Ricardo Hideki</h2>
+                    <h3 class="apresentacao__inicio--texto">Ricardo, também conhecido pelos nomes Ricky, Deky e Mondlitch, é um estudante e um futuro desenvolvedor full-stack de 15 anos. Atualmente está estudando front-end na Alura, contendo 10 certificados da Alura e 2 da Escola Estadual Cívico-Militar São Pedro.</h3>
+                </div>
+                <div class="apresentacao__itens">
+                    <div class="apresentacao__itens--celulas">
+                        <h3 class="apresentacao__itens--titulo">🌙 Gostos</h3>
+                        <ul class="apresentacao__itens--lista">
+                            <li class="apresentacao__itens--itens">Obras (filmes e livros) de suspense, mistério e romance</li>
+                            <li class="apresentacao__itens--itens">Jogos de puzzle, sobrevivência e FPS</li>
+                            <li class="apresentacao__itens--itens">Lugares frios, sem muito barulho e com pouca luminosidade (sem ser uma geladeira fechada)</li>
+                            <li class="apresentacao__itens--itens">&#10024; Sparkles & Moon &#127765;</li>
+                        </ul>
+                    </div>
+
+                    <div class="apresentacao__itens--celulas">
+                        <h3 class="apresentacao__itens--titulo">🌙 Formações</h3>
+                        <ul class="apresentacao__itens--lista">
+                            <li class="apresentacao__itens--itens">Escola Municipal Etelvina Arzua Costa (Paraná)</li>
+                            <li class="apresentacao__itens--itens">EMEFEI Luiz Carlos Aranha Pacheco (São Paulo)</li>
+                            <li class="apresentacao__itens--itens">Escola Estadual Comendador Alfredo Vianello Gregório (São Paulo)</li>
+                            <li class="apresentacao__itens--itens">Escola Estadual Cívico-Militar São Pedro (Paraná) <a href="#" class="apresentacao__itens--botao">Ver certificados</a> </li>
+                            <li class="apresentacao__itens--itens">Logus Informática - 86% (São Paulo) </li>
+                            <li class="apresentacao__itens--itens">Ananguera - 46% (São Paulo) </li>
+                            <li class="apresentacao__itens--itens">Alura (EAD) <a href="sobre.html#alura" class="apresentacao__itens--botao">Ver certificados</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="apresentacao__itens--celulas">
+                        <h3 class="apresentacao__itens--titulo">🌙 Outros</h3>
+                        <ul class="apresentacao__itens--lista">
+                            <li class="apresentacao__itens--itens">Ingles - Intermediário</li>
+                            <li class="apresentacao__itens--itens">GML - Básico</li>
+                            <li class="apresentacao__itens--itens">Engenheiro no Create e IndustrialCraft 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="certificados" id="certificados">
+            <div class="container">
+                <div class="certificados__inicio " id="alura"> <h1 class="certificados__inicio--titulo"> Certificados </h1> </div>
+                <div class="alura">
+                    <h2 class="alura__titulo certificados__titulo"> Certificados dados pela Alura </h2>
+                    <div class="alura__flexbox">
+                        <div class="certificado">
+                            <img src="assets/img/certificados/lógica Da Programação I.png" alt="" class="certificado__imagem">
+                            <h3 class="certificado__nome">Lógica da programação I</h3>
+                            <h4 class="certificado__descricao">Cerfificado dado pela Alura de Lógica da programação (javaScript).</h4>
+                            <a href="" class="certificado__link">Veja aqui</a>
+                        </div>
+                        <div class="certificado">
+                            <img src="assets/img/certificados/Lógica Da Programação II.png" alt="" class="certificado__imagem">
+                            <h3 class="certificado__nome">Lógica da programação II</h3>
+                            <h4 class="certificado__descricao">Cerfificado dado pela Alura de Lógica da programação II (Canvas).</h4>
+                            <a href="" class="certificado__link">Veja aqui</a>
+                        </div>
+                        <div class="certificado">
+                            <img src="assets/img/certificados/HTML5 & CSS3 I.png" alt="" class="certificado__imagem">
+                            <h3 class="certificado__nome">HTML5 & CSS3 I</h3>
+                            <h4 class="certificado__descricao">Certificado dado pela Alura de HTML5 & CSS3 básico.</h4>
+                            <a href="" class="certificado__link">Veja aqui</a>
+                        </div>
+                        <div class="certificado">
+                            <img src="assets/img/certificados/HTML5 & CSS3 II.png" alt="" class="certificado__imagem">
+                            <h3 class="certificado__nome">HTML5 & CSS3 II</h3>
+                            <h4 class="certificado__descricao">Certificado dado pela Alura de HTML5 & CSS3 de posicionamento, listas e navegação.</h4>
+                            <a href="" class="certificado__link">Veja aqui</a>
+                        </div>
+                        <div class="certificado">
+                            <img src="assets/img/certificados/HTML5 & CSS3 III.png" alt="" class="certificado__imagem">
+                            <h3 class="certificado__nome">HTML5 & CSS3 III</h3>
+                            <h4 class="certificado__descricao">Certificado dado pela Alura de HTML5 & CSS3 sobre formulários e tabelas.</h4>
+                            <a href="" class="certificado__link">Veja aqui</a>
+                        </div>
+                        <div class="certificado">
+                            <img src="assets/img/certificados/HTML5 & CSS3 IV.png" alt="" class="certificado__imagem">
+                            <h3 class="certificado__nome">HTML5 & CSS3 IV</h3>
+                            <h4 class="certificado__descricao">Certificado dado pela Alura de HTML5 & CSS3 avançado.</h4>
+                            <a href="" class="certificado__link">Veja aqui</a>
+                        </div>
+                        <div class="certificado">
+                            <img src="assets/img/certificados/Flexbox.png" alt="" class="certificado__imagem">
+                            <h3 class="certificado__nome">Flexbox</h3>
+                            <h4 class="certificado__descricao">Certificado dado pela Alura de Flexbox.</h4>
+                            <a href="" class="certificado__link">Veja aqui</a>
+                        </div>
+                        <div class="certificado">
+                            <img src="assets/img/certificados/Layouts Responsivos.png" alt="" class="certificado__imagem">
+                            <h3 class="certificado__nome">Layouts Responsivos</h3>
+                            <h4 class="certificado__descricao">Certificado dado pela Alura de Layouts reponsivos para mobile.</h4>
+                            <a href="" class="certificado__link">Veja aqui</a>
+                        </div>
+                        <div class="certificado">
+                            <img src="assets/img/certificados/CSS Grid.png" alt="" class="certificado__imagem">
+                            <h3 class="certificado__nome">CSS Grid</h3>
+                            <h4 class="certificado__descricao">Certificado dado pela Alura de Grid simplificando layouts.</h4>
+                            <a href="" class="certificado__link">Veja aqui</a>
+                        </div>
+                        <div class="certificado">
+                            <img src="assets/img/certificados/Arquitetura CSS.png" alt="" class="certificado__imagem">
+                            <h3 class="certificado__nome">Arquitetura CSS</h3>
+                            <h4 class="certificado__descricao">Certificado dado pela Alura de arquitetura e organização de pastas.</h4>
+                            <a href="" class="certificado__link">Veja aqui</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+        <div class="container">
+
+            <div class="rodape__conteudo">
+                <h1 class="rodape__titulo">&#10024; Deky's Pogtifólio</h1>
+
+                <div class="rodape__nav">
+                    <div class="rodape__sobre">
+                        <h2 class="rodape__sobre--titulo rodape__tituloLista">Sobre</h2>
+                        <ul class="rodape__sobre--lista">
+                            <li class="rodape__lista--item"> <a href="sobre.html">Sobrem mim</a> </li>
+                            <li class="rodape__lista--item"><a href="sobre.html#certificados">Certificados</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="rodape__projetos">
+                        <h2 class="rodape__projetos--titulo rodape__tituloLista">Projetos</h2>
+                        <ul class="rodape__projetos--lista">
+                            <li class="rodape__lista--item"><a href="#">Desafio Alura 2 - moonRise &#127765;</a></li>
+                            <li class="rodape__lista--item"><a href="#">Desafio Alura 3 - Alarme</a></li>
+                            <li class="rodape__lista--item"><a href="#">Battle for Yorktown - Clicker</a></li>
+                            <li class="rodape__lista--item"><a href="#">Pogtifólio</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="rodape__contato">
+                        <h2 class="rodape__contato--titulo rodape__tituloLista">Contato</h2>
+                        <ul class="rodape__contato--lista">
+                            <li class="rodape__lista--item"><a href="#">Twitter</a></li>
+                            <li class="rodape__lista--item"><a href="#">Linkedin</a></li>
+                            <li class="rodape__lista--item"><a href="#">Email</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                    
+            </div>
+
+        </div>
+
+    </footer>
 
 </body>
 </html>

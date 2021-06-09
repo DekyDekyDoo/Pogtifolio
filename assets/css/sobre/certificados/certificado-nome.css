@@ -1,0 +1,6 @@
+.certificado__nome{
+    margin-top: 1rem;
+    font-family: var(--ubuntu);
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
