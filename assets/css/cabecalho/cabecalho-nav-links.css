@@ -10,3 +10,8 @@
     border-radius: 5px;
     border-bottom: 2px solid white;
 }
+
+.cabecalho__nav__links.ativo {
+    border-radius: 5px;
+    border-bottom: 2px solid #808080;
+}

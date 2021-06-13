@@ -21,3 +21,7 @@
     margin-right: 5rem;
 }
 
+.certificado:nth-child(11n) {
+    margin-right: 5rem;
+}
+
