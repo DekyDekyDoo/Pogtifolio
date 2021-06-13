@@ -6,7 +6,11 @@
 
 @media screen and (min-width: 768px){
     .sobre__texto{
-        text-align: center;
         margin-right: var(--borda);
     }
+
+    .sobre__texto .subTitulo{
+        text-align: justify;
+    }
+
 }
