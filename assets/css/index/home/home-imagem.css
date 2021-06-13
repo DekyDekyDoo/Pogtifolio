@@ -3,4 +3,5 @@
     height: 100vh;
     position: relative;
     opacity: 0.6;
+    object-fit: cover;
 }

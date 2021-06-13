@@ -6,6 +6,10 @@
     margin-right: 10px;
 }
 
+.cabecalho__nav__links:nth-child(4n){
+    margin-right: 0;
+}
+
 .cabecalho__nav__links:hover {
     border-radius: 5px;
     border-bottom: 2px solid white;

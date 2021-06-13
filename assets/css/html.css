@@ -10,6 +10,10 @@
     --borda: 5rem;
     --bordaTransicao: 5px solid white;
 
+    --titulo-mobile: 2.5rem;
+    --texto-mobile: 1.25rem;
+
+    --tamanhoBotao-mobile: .5rem;
 }
 
 html {
@@ -21,32 +25,49 @@ html {
     scroll-behavior: smooth;
 }
 
-.titulo{
-    color: white;
-    font-size: var(--titulo);
-    font-family: var(--ubuntu);
-}
-
-.subTitulo {
-    margin-top: 1rem;
-    color: white;
-    font-size: var(--texto);
-    font-family: var(--ubuntuMono);
-    margin-bottom: 4rem;
-}
-
-.botao{
-    font-family: var(--ubuntuMono);
-    font-size: var(--texto);
-    border: 2px solid white;
-    border-radius: var(--tamanhoBotao);
-    color: white;
-    padding: var(--tamanhoBotao);
-    text-decoration: none;
-    background: rgba(100, 100, 100, .5);
-}
-
 .botao:hover {
     padding: 1.5rem;
     transition: .2s;
+}
+
+@media screen and (min-width: 0){
+    .titulo{
+        color: white;
+        font-size: var(--titulo-mobile);
+        font-family: var(--ubuntu);
+    }
+
+    .subTitulo{
+        margin-top: 1rem;
+        color: white;
+        font-size: var(--texto-mobile);
+        font-family: var(--ubuntuMono);
+        margin-bottom: 4rem;
+    }
+
+    .botao{
+        font-family: var(--ubuntuMono);
+        font-size: var(--titulo-mobile);
+        border: 2px solid white;
+        border-radius: var(--tamanhoBotao-mobile);
+        color: white;
+        padding: var(--tamanhoBotao-mobile);
+        text-decoration: none;
+        background: rgba(100, 100, 100, .5);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .titulo{
+        font-size: var(--titulo);
+    }
+    
+    .subTitulo {
+        font-size: var(--texto);
+    }
+
+    .botao{
+        border-radius: var(--tamanhoBotao);
+        padding: var(--tamanhoBotao);
+    }
 }

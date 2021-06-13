@@ -1,7 +1,18 @@
-.alura__flexbox{
-    margin: calc(80px - 2rem) 0;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+@media screen and (min-width: 0){
+    .alura__flexbox{
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    .alura__flexbox{
+        margin-top: 0;
+        margin: calc(80px - 2rem) 0;
+        flex-direction: row;
+    }
 }

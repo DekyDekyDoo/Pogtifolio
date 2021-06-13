@@ -1,7 +1,16 @@
-.home__texto{
-    text-align: center;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+@media screen and (min-width: 0){
+    .home__texto{
+        text-align: center;
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .home__texto {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }

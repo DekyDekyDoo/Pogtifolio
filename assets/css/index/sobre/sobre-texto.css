@@ -1,4 +1,12 @@
-.sobre__texto{
-    text-align: center;
-    margin-right: var(--borda);
+@media screen and (min-width: 0){
+    .sobre__texto{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre__texto{
+        text-align: center;
+        margin-right: var(--borda);
+    }
 }

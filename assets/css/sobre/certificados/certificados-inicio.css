@@ -1,7 +1,15 @@
-.certificados__inicio--titulo {
-    color: white;
-    font-family: var(--ubuntu);
-    font-size: var(--titulo);
-    text-align: center;
-    margin-top: 40px;
+@media screen and (min-width: 0){
+    .certificados__inicio--titulo {
+        color: white;
+        font-family: var(--ubuntu);
+        font-size: var(--titulo-mobile);
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .certificados__inicio--titulo {
+        font-size: var(--titulo);
+    }
 }
